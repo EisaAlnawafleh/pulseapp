@@ -472,4 +472,7 @@ font-size: x-large;
         .br_10{
             display: none;
         }
+        .s_9{
+            height: 10%;
+        }
     }
