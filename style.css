@@ -1,3 +1,6 @@
+html{
+    font-family: Work Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
 body {
     margin: 0;
     width: 100%;
@@ -74,10 +77,12 @@ font-size: x-large;
     color: #080c16;
 }
 .pricing-section{
+    width: 90%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 25% 35%;
     height: 100%;
     width: 1fr;
+    
   
    color: #464951;
 }
@@ -87,7 +92,9 @@ font-size: x-large;
     text-align: left;
     height: 90%;   
     justify-items: right; 
-    margin-top: 7%;
+    margin-top: 10%;
+
+    
 } 
 .pricing-card_1 span ul li{
     line-height:1.5;
@@ -115,9 +122,10 @@ font-size: x-large;
     border: 1px solid #00ad6a;
     border-radius: 10px 10px 0 0;
     background-color: white;
-    width: 70%;
+    width: 90%;
     height:100%;  
     justify-self: right;
+    
     
 }
 .pricing-card_2 a{
@@ -178,7 +186,7 @@ font-size: x-large;
     width: 70%;
     height: 90%;
     background-color: white;
-    margin-top: 5%;
+    margin-top: 8%;
     
     
     
@@ -284,6 +292,7 @@ font-size: x-large;
   @media(max-width : 767px){
     body{
         margin: 0;
+
     }
     .header-wrapper{
         display: none;
@@ -292,6 +301,7 @@ font-size: x-large;
     header{
         background-color: white;
         height: 40%;
+        
     }
     .img_2{
         display: block;
@@ -308,23 +318,28 @@ font-size: x-large;
         width: 100%;
         font-size: xxx-large;
         text-align: left;
+        margin-left: 2%;
         
     }
     .main-wrapper{
-        width: 100%;
+        width: 90%;
         height: 100%;
         display: grid;
         grid-template-rows: 1fr 1fr;
+        margin-left: 2%;
+
         
     }
     .br_1{
         display: none;
     }
+    
     .s_2{
-        margin-left: 2%;
-        width: 80%;
+        margin-left: 4%;
+        width: 93%;
         text-align: left;
         font-size: large;
+       
         
     }
     .s_3{
@@ -343,7 +358,7 @@ font-size: x-large;
         grid-template-rows: 7% 1fr 1fr; 
         width: 100%;
         height: auto;
-        gap: 0;
+        gap: 1%;
     }
     .pricing-section{
         display: grid;
@@ -367,12 +382,15 @@ font-size: x-large;
             justify-items: left; 
             margin: 2%;
             width: 80%;
+
           
         }
         .s_3{
         width: 100%;
-        position: relative;
-        right: 7%;
+        display: block;
+        
+       
+
         }
         .pricing-card_1 ul li{
             width: 100%;
@@ -381,13 +399,14 @@ font-size: x-large;
         }
         .s_4{
             width: 100%;
-        position: relative;
-        right: 7%;
+            margin-left: 23%;
+       
 
         }
         .pricing-card_2{
-            width: 100%; 
-            height: 110%;       
+            width: 90%; 
+            height: 110%;  
+            margin-right: 5%;     
         }
         .br_8{
             display: none;
@@ -444,9 +463,10 @@ font-size: x-large;
           }
           .pricing-card_3{
            
-            justify-items: left; 
+            justify-self: center;
+            
            
-            width: 100%;
+            width: 90%;
             height: 105%;
           }
           .s_10{
