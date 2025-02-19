@@ -33,7 +33,7 @@ width: 80%;
 
 }
 footer{
-    margin-top: 10%;
+    padding-top: 10%;
     background-color:#080c16;
     height:auto ;
  
@@ -145,7 +145,7 @@ grid-template-columns: auto auto auto;
     
     }
     footer{
-        margin-top: 10%;
+        padding-top: 10%;
         background-color:#080c16;
         height:auto ;
      
@@ -273,7 +273,7 @@ grid-template-columns: auto auto auto;
     
     }
     footer{
-        margin-top: 10%;
+        padding-top: 10%;
         background-color:#080c16;
         height:auto ;
      
