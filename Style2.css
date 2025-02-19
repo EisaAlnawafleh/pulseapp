@@ -1,0 +1,370 @@
+.Main_Liner{
+
+    background-color: aliceblue;
+}
+.Main_Liner h1{
+    margin-top: 10%;
+margin-left: 10%;
+font-weight: 900;
+
+}
+.Liners{
+margin-left: 10%;
+width: 80%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+.Liners p{
+    color: #5a5a5a;
+    font-size: large;
+}
+.Liners h3{
+    font-weight: 900;
+}
+.liner{
+    width: 90%;
+}
+.hr1{
+    background-color: #e3e3e3;
+    height: .5px;
+    margin: 0;
+    border: .5px solid #e3e3e3;
+
+}
+footer{
+    margin-top: 10%;
+    background-color:#080c16;
+    height:auto ;
+ 
+ 
+}
+.Main_footer{
+    display: grid;
+    grid-template-columns: 50% auto;
+    width: 80%;
+    margin-left: 10%;
+}
+.footer_Ads{
+margin-top: 18%;
+}
+.footer_Ads img{
+    width: 20%;
+    cursor: pointer;
+}
+.footer_Ads button{
+    padding: 15px 30px;
+    color:#080c16;
+    font-weight: 900;
+    background-color:#23ea76 ;
+    border: 1px solid #23ea76;
+    position: relative;
+    cursor: pointer;
+    z-index: 2;
+}
+.footer_Ads button:hover{
+    top: -5px;
+    left: 5px; 
+}
+.back{
+    position: relative;
+    top: -50px;
+    z-index: 1;
+    background-color: #5a5a5a;
+   width: 283.5px     ;
+   height: 50px;
+}
+.linersFooter{
+    font-size: small;
+    color: #83858a;
+}
+.linersFooter a{
+    
+        font-size: small;
+        color: #83858a;
+  
+}
+.linersFooter a:hover{
+    color: #23ea76;
+}
+.Sum_ADs{
+margin-top: 11%;
+color: aliceblue;
+display: grid;
+grid-template-columns: auto auto auto;
+}
+.Sum_ADs h4{
+    font-size: x-large;
+}
+.Links a{
+    color: #23ea76;
+    text-decoration: none;
+
+}
+.Links a:hover{
+    color: aliceblue;
+    text-decoration: none;
+
+}
+.linersFooter_Mobile{
+    display: none;
+}
+@media (max-width:1031px) {
+    .Main_Liner{
+
+        background-color: aliceblue;
+    }
+    .Main_Liner h1{
+        margin-top: 10%;
+    margin-left: 10%;
+    font-weight: 900;
+    
+    }
+    .Liners{
+    margin-left: 10%;
+    width: 80%;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+    .Liners p{
+        color: #5a5a5a;
+        font-size: large;
+    }
+    .Liners h3{
+        font-weight: 900;
+    }
+    .liner{
+        width: 90%;
+    }
+    .hr1{
+        background-color: #e3e3e3;
+        height: .5px;
+        margin: 0;
+        border: .5px solid #e3e3e3;
+    
+    }
+    footer{
+        margin-top: 10%;
+        background-color:#080c16;
+        height:auto ;
+     
+     
+    }
+    .Main_footer{
+        display: grid;
+        grid-template-columns: 1fr ;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .footer_Ads{
+    margin-top: 18%;
+    margin-left: 30%;
+    }
+    .footer_Ads img{
+        width: 20%;
+        cursor: pointer;
+        margin-left: 15%;
+    }
+    .footer_Ads button{
+        padding: 15px 30px;
+        color:#080c16;
+        font-weight: 900;
+        background-color:#23ea76 ;
+        border: 1px solid #23ea76;
+        position: relative;
+        cursor: pointer;
+        z-index: 2;
+    }
+    .footer_Ads button:hover{
+        top: -5px;
+        left: 5px; 
+    }
+    .back{
+        position: relative;
+        top: -50px;
+        z-index: 1;
+        background-color: #5a5a5a;
+       width: 283.5px     ;
+       height: 50px;
+    }
+    .linersFooter{
+        font-size: small;
+        color: #83858a;
+        display: none;
+    }
+    .linersFooter a{
+        
+            font-size: small;
+            color: #83858a;
+      
+    }
+    .linersFooter a:hover{
+        color: #23ea76;
+    }
+    .Sum_ADs{
+    margin-top: 11%;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    }
+    .Sum_ADs h4{
+        font-size: x-large;
+    }
+    .Links a{
+        color: #23ea76;
+        text-decoration: none;
+    
+    }
+    .Links a:hover{
+        color: aliceblue;
+        text-decoration: none;
+    
+    }
+    .linersFooter_Mobile{
+        display: block;
+        font-size: small;
+        color: #83858a;
+     
+    }
+    .linersFooter_Mobile a{
+        
+        font-size: small;
+        color: #83858a;
+  
+}
+.linersFooter_Mobile   a:hover{
+    color: #23ea76;
+}
+}
+@media (max-width:774px) {
+    .Main_Liner{
+
+        background-color: aliceblue;
+    }
+    .Main_Liner h1{
+        margin-top: 10%;
+    margin-left: 10%;
+    font-weight: 900;
+    
+    }
+    .Liners{
+    margin-left: 10%;
+    width: 80%;
+        display: grid;
+        grid-template-columns: auto ;
+        gap: 20px;
+    }
+    .Liners p{
+        color: #5a5a5a;
+        font-size: large;
+    }
+    .Liners h3{
+        font-weight: 900;
+    }
+    .liner{
+        width: 90%;
+    }
+    .hr1{
+        background-color: #e3e3e3;
+        height: .5px;
+        margin: 0;
+        border: .5px solid #e3e3e3;
+    
+    }
+    footer{
+        margin-top: 10%;
+        background-color:#080c16;
+        height:auto ;
+     
+     
+    }
+    .Main_footer{
+        display: grid;
+        grid-template-columns: 1fr ;
+        width: 100%;
+        margin-left:0;
+    }
+    .footer_Ads{
+    margin-top: 18%;
+    margin-left: 0;
+    }
+    .footer_Ads img{
+        width: 20%;
+        cursor: pointer;
+      
+    }
+    .footer_Ads button{
+        width: 80%;
+        margin-left: 10%;
+        height: 50px;
+        color:#080c16;
+        font-weight: 900;
+        background-color:#23ea76 ;
+        border: 1px solid #23ea76;
+        position: relative;
+        cursor: pointer;
+        z-index: 2;
+    }
+    .footer_Ads button:hover{
+        top: -5px;
+        left: 5px; 
+    }
+    .back{
+        position: relative;
+        top: -50px;
+        z-index: 1;
+        background-color: #5a5a5a;
+       width: 80%   ;
+       margin-left: 10%;
+       height: 50px;
+    }
+    .linersFooter{
+        font-size: small;
+        color: #83858a;
+        display: none;
+    }
+    .linersFooter a{
+        
+            font-size: small;
+            color: #83858a;
+      
+    }
+    .linersFooter a:hover{
+        color: #23ea76;
+    }
+    .Sum_ADs{
+    margin-top: 11%;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    }
+    .Sum_ADs h4{
+        font-size: x-large;
+    }
+    .Links a{
+        color: #23ea76;
+        text-decoration: none;
+    
+    }
+    .Links a:hover{
+        color: aliceblue;
+        text-decoration: none;
+    
+    }
+    .linersFooter_Mobile{
+        display: block;
+        font-size: small;
+        color: #83858a;
+     
+    }
+    .linersFooter_Mobile a{
+        
+        font-size: small;
+        color: #83858a;
+  
+}
+.linersFooter_Mobile   a:hover{
+    color: #23ea76;
+} 
+}
